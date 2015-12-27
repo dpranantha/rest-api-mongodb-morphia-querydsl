@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+       xsi:schemaLocation="http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context-3.0.xsd
+          http://www.springframework.org/schema/data/mongo
+          http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd
+          http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!-- BEGIN Properties -->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:rsm.properties" />
+    </bean>
+    <!-- END Properties -->
+
+    <!--this is for using spring and mongo-template-->
+    <!--mongo:mongo host="${rsm.database.host}" port="${rsm.database.port}" />
+    <mongo:db-factory dbname="${rsm.database.name}" /-->
+
+    <!--bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+        <constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+    </bean-->
+
+    <bean name="morphiaFactory" class="org.rsm.util.MorphiaFactory">
+        <property name="host" value="${rsm.database.host}"/>
+        <property name="port" value="${rsm.database.port}"/>
+    </bean>
+    <bean id="mongo" name="mongo" factory-bean="morphiaFactory" factory-method="getMongoInstance"/>
+    <bean id="morphia" name="morphia" factory-bean="morphiaFactory" factory-method="getMorphiaInstance"/>
+
+    <bean id="customerDao" class="org.rsm.dao.CustomerDao">
+        <constructor-arg name="mongo" ref="mongo"/>
+        <constructor-arg name="morphia" ref="morphia"/>
+        <constructor-arg name="dbName" value="${rsm.database.name}"/>
+    </bean>
+</beans>

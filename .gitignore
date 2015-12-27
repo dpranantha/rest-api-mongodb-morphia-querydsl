@@ -1,0 +1,56 @@
+*~
+.#*
+.git
+.java-version
+*#
+*.sh
+
+# os x stuff
+*Thumbs.db*
+*.DS_Store
+
+# Build artifacts
+build
+out
+mongo*.jar
+
+### Eclipse
+.project
+.classpath
+.settings/
+.worksheet/
+bin/
+
+### IDEA
+*.iml
+*.ipr
+*.iws
+*.ids
+out/
+.idea/
+workspace.xml
+atlassian-ide-plugin.xml
+
+### Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+### Gradle
+.gradle/
+build/
+
+
+# Vim
+.*.swp
+
+### JRebel
+rebel.xml
+
+### Other
+.cache
+.tmp
+jmeter.log
+rsm*/src/main/generated/

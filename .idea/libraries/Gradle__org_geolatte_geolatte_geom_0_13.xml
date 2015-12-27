@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geolatte:geolatte-geom:0.13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geolatte/geolatte-geom/0.13/c1d4631591fe367a88d40d6b73fd6c96d58a4c8b/geolatte-geom-0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geolatte/geolatte-geom/0.13/1a903f2f65ec797eb9dad6459adf60a35f7fd1d7/geolatte-geom-0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

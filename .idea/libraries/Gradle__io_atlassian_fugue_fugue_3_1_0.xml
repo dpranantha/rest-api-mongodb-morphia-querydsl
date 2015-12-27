@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.atlassian.fugue:fugue:3.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.atlassian.fugue/fugue/3.1.0/3be4b223453c9db906acc6fcccc9fb17cbebf12c/fugue-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.atlassian.fugue/fugue/3.1.0/31a88a1e8d791d03bede88fc176e04240b503558/fugue-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

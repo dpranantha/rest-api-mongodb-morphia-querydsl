@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mysema.querydsl:querydsl-mongodb:3.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mysema.querydsl/querydsl-mongodb/3.7.0/a6d9d552e219ec74c7da2adad2e260029a5b1760/querydsl-mongodb-3.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mysema.querydsl/querydsl-mongodb/3.7.0/a2335f293f786c21c65384068f940846bfae54b5/querydsl-mongodb-3.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

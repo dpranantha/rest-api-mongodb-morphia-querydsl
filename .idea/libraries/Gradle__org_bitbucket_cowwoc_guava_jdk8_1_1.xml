@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.bitbucket.cowwoc:guava-jdk8:1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitbucket.cowwoc/guava-jdk8/1.1/5e16aec1be69cba8fe2ca970640e8a5484efa9fe/guava-jdk8-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitbucket.cowwoc/guava-jdk8/1.1/d9c72b86de3b1fb2e2cea2d266e5c67844dba66d/guava-jdk8-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

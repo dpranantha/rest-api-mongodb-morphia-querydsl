@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.querydsl:querydsl-sql-spatial:4.0.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-sql-spatial/4.0.6/c5295e96e43bb5ffbedb08aaf1b8df963a09e168/querydsl-sql-spatial-4.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-sql-spatial/4.0.6/f0d829fc676346064158240754a435bbe69e4792/querydsl-sql-spatial-4.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

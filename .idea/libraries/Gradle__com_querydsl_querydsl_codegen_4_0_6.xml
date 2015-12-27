@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.querydsl:querydsl-codegen:4.0.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-codegen/4.0.6/cd0e4d66b9927b051ee66db16f66995897e6df84/querydsl-codegen-4.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-codegen/4.0.6/2b508b43bf9e1552128581c2548ec2380062af35/querydsl-codegen-4.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
