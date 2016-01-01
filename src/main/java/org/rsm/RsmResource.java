@@ -46,6 +46,6 @@ public class RsmResource {
     @Consumes("application/json")
     public Response insertCustomers(List<Customer> customers) {
         List<Key<Customer>> keys = customerService.insertCustomers(ImmutableList.copyOf(customers));
-        return Response.status(201).tag(Joiner.on(",").join(keys)).build();
+        return Response.status(201).tag(Joiner.on(",").join(keys) + " inserted").build();
     }
 }
